@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f8b8442-3d01-4f83-8b25-cb0d6094ff44" name="Default Changelist" comment="Initial commit" />
+    <list default="true" id="0f8b8442-3d01-4f83-8b25-cb0d6094ff44" name="Default Changelist" comment="Initial commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,9 +65,9 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="Application.Test11">
@@ -121,7 +123,7 @@
       <updated>1590405402579</updated>
       <workItem from="1590405403854" duration="3187000" />
       <workItem from="1590573945860" duration="3702000" />
-      <workItem from="1590660717696" duration="1650000" />
+      <workItem from="1590660717696" duration="2298000" />
     </task>
     <task id="LOCAL-00001">
       <created>1590577955959</created>
@@ -137,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590662369295</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Initial commit">
+      <created>1590662589228</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1590662589228</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,7 +171,7 @@
                   <entry key="structure">
                     <value>
                       <list>
-                        <option value="dir:E:/Java_Project/Exception/Test08/src" />
+                        <option value="dir:E:/Java_Project/Exception/Test09/src" />
                       </list>
                     </value>
                   </entry>
@@ -201,10 +210,11 @@
       <screen x="0" y="0" width="1080" height="1890" />
     </state>
     <state x="408" y="781" key="#Notifications/0.0.1080.1890@0.0.1080.1890" timestamp="1590406419044" />
-    <state x="21" y="519" key="#Project_Structure" timestamp="1590405405193">
-      <screen x="0" y="0" width="1080" height="1890" />
+    <state x="37" y="200" key="#Project_Structure" timestamp="1590662523210">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="21" y="519" key="#Project_Structure/0.0.1080.1890@0.0.1080.1890" timestamp="1590405405193" />
+    <state x="37" y="200" key="#Project_Structure/0.0.1920.1050@0.0.1920.1050" timestamp="1590662523210" />
     <state x="828" y="337" key="#Vim_Emulation" timestamp="1590641784801">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -217,10 +227,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="93" y="93" width="1733" height="863" key="DiffContextDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1590661601804" />
-    <state x="742" y="265" key="FileChooserDialogImpl" timestamp="1590661699420">
+    <state x="742" y="265" key="FileChooserDialogImpl" timestamp="1590662843424">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="742" y="265" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1590661699420" />
+    <state x="742" y="265" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1590662843424" />
     <state x="348" y="862" key="Github.CreateGistDialog" timestamp="1590577491338">
       <screen x="0" y="0" width="1080" height="1890" />
     </state>
@@ -241,33 +251,34 @@
       <screen x="0" y="0" width="1080" height="1890" />
     </state>
     <state width="1038" height="556" key="GridCell.Tab.0.right/0.0.1080.1890@0.0.1080.1890" timestamp="1590578155662" />
-    <state x="335" y="563" key="RollbackChangesDialog" timestamp="1590578068332">
-      <screen x="0" y="0" width="1080" height="1890" />
+    <state x="596" y="288" key="RollbackChangesDialog" timestamp="1590662862261">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="335" y="563" key="RollbackChangesDialog/0.0.1080.1890@0.0.1080.1890" timestamp="1590578068332" />
+    <state x="596" y="288" key="RollbackChangesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1590662862261" />
     <state x="75" y="327" key="SettingsEditor" timestamp="1590661946855">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="42" y="589" key="SettingsEditor/0.0.1080.1890@0.0.1080.1890" timestamp="1590405826784" />
     <state x="75" y="327" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1590661946855" />
-    <state x="236" y="374" key="Vcs.Push.Dialog.v2" timestamp="1590641775126">
+    <state x="236" y="374" key="Vcs.Push.Dialog.v2" timestamp="1590662656397">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="133" y="674" key="Vcs.Push.Dialog.v2/0.0.1080.1890@0.0.1080.1890" timestamp="1590577844795" />
-    <state x="236" y="374" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1590641775126" />
-    <state x="93" y="93" width="1733" height="863" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1590661601804">
+    <state x="236" y="374" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1590662656397" />
+    <state x="93" y="93" width="1733" height="863" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1590663020183">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="93" y="93" width="1733" height="863" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1590661601804" />
+    <state x="93" y="93" width="1733" height="863" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1590663020183" />
     <state x="271" y="627" key="extract.method.dialog" timestamp="1590406629302">
       <screen x="0" y="0" width="1080" height="1890" />
     </state>
     <state x="271" y="627" key="extract.method.dialog/0.0.1080.1890@0.0.1080.1890" timestamp="1590406629302" />
-    <state x="475" y="399" key="git4idea.merge.GitPullDialog" timestamp="1590641650554">
+    <state x="475" y="399" key="git4idea.merge.GitPullDialog" timestamp="1590662972593">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="267" y="718" key="git4idea.merge.GitPullDialog/0.0.1080.1890@0.0.1080.1890" timestamp="1590577789834" />
-    <state x="475" y="399" key="git4idea.merge.GitPullDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1590641650554" />
+    <state x="475" y="399" key="git4idea.merge.GitPullDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1590662972593" />
     <state x="763" y="411" key="git4idea.ui.GitResetDialog" timestamp="1590641734635">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
