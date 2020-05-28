@@ -1,0 +1,1437 @@
+Index: Array/Test01/src/Test01.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Array/Test01/src/Test01.java	(date 1587128524406)
++++ Array/Test01/src/Test01.java	(date 1587128524406)
+@@ -0,0 +1,16 @@
++//模拟大乐透号码：
++//
++//        * 一组大乐透号码由10个1-99之间的数字组成
++//        * 定义方法，打印大乐透号码信息
++public class Test01 {
++    public static void main(String[] args) {
++        printArray();
++    }
++    public static void printArray(){
++        int arr []={10,11,12,13,14,15,16,17,18,19};
++        for (int i=0;i<10;i++) {
++            System.out.print(arr[i]+" ");
++        }
++    }
++
++}
+Index: Array/Test01/Test01.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Array/Test01/Test01.iml	(date 1587128180814)
++++ Array/Test01/Test01.iml	(date 1587128180814)
+@@ -0,0 +1,11 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
++    </content>
++    <orderEntry type="jdk" jdkName="12" jdkType="JavaSDK" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: Array/.idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Array/.idea/misc.xml	(date 1587128180865)
++++ Array/.idea/misc.xml	(date 1587128180865)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectRootManager">
++    <output url="file://$PROJECT_DIR$/out" />
++  </component>
++</project>
+\ No newline at end of file
+Index: Array/.idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Array/.idea/modules.xml	(date 1587213693293)
++++ Array/.idea/modules.xml	(date 1587213693293)
+@@ -0,0 +1,14 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/Test01/Test01.iml" filepath="$PROJECT_DIR$/Test01/Test01.iml" />
++      <module fileurl="file://$PROJECT_DIR$/Test02/Test02.iml" filepath="$PROJECT_DIR$/Test02/Test02.iml" />
++      <module fileurl="file://$PROJECT_DIR$/Test03/Test03.iml" filepath="$PROJECT_DIR$/Test03/Test03.iml" />
++      <module fileurl="file://$PROJECT_DIR$/Test04/Test04.iml" filepath="$PROJECT_DIR$/Test04/Test04.iml" />
++      <module fileurl="file://$PROJECT_DIR$/Test05/Test05.iml" filepath="$PROJECT_DIR$/Test05/Test05.iml" />
++      <module fileurl="file://$PROJECT_DIR$/Test06/Test06.iml" filepath="$PROJECT_DIR$/Test06/Test06.iml" />
++      <module fileurl="file://$PROJECT_DIR$/Test07/Test07.iml" filepath="$PROJECT_DIR$/Test07/Test07.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: Array/.idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Array/.idea/.gitignore	(date 1587128181117)
++++ Array/.idea/.gitignore	(date 1587128181117)
+@@ -0,0 +1,8 @@
++# Default ignored files
++/shelf/
++/workspace.xml
++# Datasource local storage ignored files
++/dataSources/
++/dataSources.local.xml
++# Editor-based HTTP Client requests
++/httpRequests/
+Index: Array/Test02/src/Test02.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Array/Test02/src/Test02.java	(date 1587130169541)
++++ Array/Test02/src/Test02.java	(date 1587130169541)
+@@ -0,0 +1,19 @@
++//打印扑克牌.
++public class Test02 {
++    public static void main(String[] args) {
++        printPoker();
++    }
++    public static void printPoker(){
++        String arrSuit[]={"红桃","黑桃","方块","梅花"};
++        String arrLetter[]=
++                {"A","2","3","4","5","6","7","8","9","10","J","Q","K"};
++        for (int i=0;i<4;i++){
++            for (int j=0;j<13;j++){
++                System.out.print(arrSuit[i]+arrLetter[j]+" ");
++            }
++            System.out.println();
++        }
++        System.out.print("大王"+" ");
++        System.out.println("小王");
++    }
++}
+Index: Array/Test02/Test02.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Array/Test02/Test02.iml	(date 1587128576743)
++++ Array/Test02/Test02.iml	(date 1587128576743)
+@@ -0,0 +1,11 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
++    </content>
++    <orderEntry type="jdk" jdkName="12" jdkType="JavaSDK" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: Array/Test03/src/Test03.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Array/Test03/src/Test03.java	(date 1587130739534)
++++ Array/Test03/src/Test03.java	(date 1587130739534)
+@@ -0,0 +1,29 @@
++//模拟在一副牌中，抽取第1张，第5张，第50张扑克牌。
++public class Test03 {
++    public static void main(String[] args) {
++        printPoker(poker());
++    }
++    public static String[] poker(){
++        String arrSuit[]={"红桃","黑桃","方块","梅花"};
++        String arrLetter[]=
++                {"A","2","3","4","5","6","7","8","9","10","J","Q","K"};
++        String arrKing[]={"大王","小王"};
++        String arrPoker []=new String [54];
++        int index=0;
++        for (int i = 0;i < 4;i++){
++            for (int j =0; j < 13; j++){
++                arrPoker[index]=arrSuit[i]+arrLetter[j];
++                index++;
++            }
++        }
++        arrPoker[52]=arrKing[0];
++        arrPoker[53]=arrKing[1];
++        return arrPoker;
++    }
++    public static void printPoker(String[] arr){
++        System.out.println(arr[0]);
++        System.out.println(arr[4]);
++        System.out.println(arr[49]);
++    }
++
++}
+Index: Array/Test03/Test03.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Array/Test03/Test03.iml	(date 1587129381541)
++++ Array/Test03/Test03.iml	(date 1587129381541)
+@@ -0,0 +1,11 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
++    </content>
++    <orderEntry type="jdk" jdkName="12" jdkType="JavaSDK" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: Array/Test04/src/Test04.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Array/Test04/src/Test04.java	(date 1587211854100)
++++ Array/Test04/src/Test04.java	(date 1587211854100)
+@@ -0,0 +1,26 @@
++//统计字符
++//
++//        * 字符数组：{'a','l','f','m','f','o','b','b','s','n'}
++//        * 定义printCount方法，统计每个字符出现的次数并打印到控制台。
++public class Test04 {
++    public static void main(String[] args) {
++        //  获取长度100的字符数组
++        char[] charArray = {'a','l','f','m','f','o','b','b','s','n'};
++        //  统计字符数组中字母出现次数
++        printCount(charArray);
++    }
++    public static void printCount(char[] charArray) {
++        int[] count= new int[26];
++        // 对应保存字母出现的次数
++        for (int i = 0; i < charArray.length; i++) {
++            int c  = charArray[i];
++            count[c- 97]++;
++        }
++        // 打印字母和次数
++        for (int i = 0, ch = 97; i < count.length; i++, ch++) {
++            if (count[i] != 0 ) {
++                System.out.println((char) ch + "--" + count[i]);
++            }
++        }
++    }
++}
+Index: Array/Test04/Test04.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Array/Test04/Test04.iml	(date 1587131442740)
++++ Array/Test04/Test04.iml	(date 1587131442740)
+@@ -0,0 +1,11 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
++    </content>
++    <orderEntry type="jdk" jdkName="12" jdkType="JavaSDK" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: Array/Test05/src/Test05.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Array/Test05/src/Test05.java	(date 1587212812638)
++++ Array/Test05/src/Test05.java	(date 1587212812638)
+@@ -0,0 +1,25 @@
++//统计高于平均分的分数有多少个。
++//
++//        * 定义数组[95, 92, 75, 56, 98, 71, 80, 58, 91, 91]。
++//        * 定义getAvg方法，获取一个数组中的平均数
++public class Test05 {
++    public static void main(String[] args) {
++        int count = 0;
++        int arr []={95, 92, 75, 56, 98, 71, 80, 58, 91, 91};
++        for (int i =0; i < arr.length; i++){
++            if(arr [i]>getAvg(arr)){
++                count++;
++            }
++        }
++        System.out.println("数组的平均数为："+getAvg(arr)+" 大于平均数的有"+count+"个");
++
++    }
++    public  static int getAvg(int [] arr){
++        int sum=0;
++        for (int i = 0; i < arr.length; i++){
++            sum+=arr [i];
++        }
++        int num=sum / arr.length;
++        return num;
++    }
++}
+Index: Array/Test05/Test05.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Array/Test05/Test05.iml	(date 1587212076107)
++++ Array/Test05/Test05.iml	(date 1587212076107)
+@@ -0,0 +1,11 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
++    </content>
++    <orderEntry type="jdk" jdkName="12" jdkType="JavaSDK" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: Array/Test06/src/Test06.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Array/Test06/src/Test06.java	(date 1587213651402)
++++ Array/Test06/src/Test06.java	(date 1587213651402)
+@@ -0,0 +1,19 @@
++//定义sym方法，判断数组中的元素值是否对称.
++public class Test06 {
++    public static void main(String[] args) {
++        int arr1 []={1,2,3,4,5,4,3,2,1};
++        int arr2 []={2,3,45,6,6,45,3,2,2,};
++        System.out.println("数组arr1是否两端对称："+sym(arr1));
++        System.out.println("数组arr1是否两端对称："+sym(arr2));
++    }
++    public static boolean sym(int arr[]){
++        int start = 0;
++        int end = arr.length - 1;
++        for (start = 0; start < end; start++ , end--){
++            if (arr[start] != arr[end]){
++                return false;
++            }
++        }
++        return true;
++    }
++}
+Index: Array/Test07/src/Test07.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Array/Test07/src/Test07.java	(date 1587214384726)
++++ Array/Test07/src/Test07.java	(date 1587214384726)
+@@ -0,0 +1,26 @@
++//定义equals方法，比较数组内容是否完全一致
++public class Test07 {
++    public static void main(String[] args) {
++        int [] arr1={1,2,3,4,5,6,7,8,9};
++        int [] arr2={1,2,3,4,5,6,7,8,9};
++        int [] arr3={1,2,3,4,5,6,5,8,9,1};
++        int [] arr4={1,2,3,4,3,6,7,8,9,11};
++        System.out.println("arr1和arr2是否完全一致："+equals(arr1,arr2));
++        System.out.println("arr2和arr3是否完全一致："+equals(arr2,arr3));
++        System.out.println("arr3和arr4是否完全一致："+equals(arr3,arr4));
++        System.out.println("arr1和arr4是否完全一致："+equals(arr1,arr4));
++        System.out.println("arr1和arr3是否完全一致："+equals(arr1,arr3));
++        System.out.println("arr2和arr4是否完全一致："+equals(arr2,arr4));
++    }
++    public static boolean equals(int [] arr1, int [] arr2){
++        if(arr1.length != arr2.length){
++            return false;
++        }
++        for (int i = 0; i < arr1.length; i++){
++            if (arr1 [i] != arr2 [i]){
++                return false;
++            }
++        }
++        return true;
++    }
++}
+Index: Array/Test06/Test06.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Array/Test06/Test06.iml	(date 1588297054409)
++++ Array/Test06/Test06.iml	(date 1588297054409)
+@@ -0,0 +1,11 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: Array/Test07/Test07.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Array/Test07/Test07.iml	(date 1588297054464)
++++ Array/Test07/Test07.iml	(date 1588297054464)
+@@ -0,0 +1,11 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: Array/Test02/Test021.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Array/Test02/Test021.iml	(date 1588297054521)
++++ Array/Test02/Test021.iml	(date 1588297054521)
+@@ -0,0 +1,11 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: Array/Test03/Test031.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Array/Test03/Test031.iml	(date 1588297054575)
++++ Array/Test03/Test031.iml	(date 1588297054575)
+@@ -0,0 +1,11 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: Array/Test04/Test041.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Array/Test04/Test041.iml	(date 1588297054632)
++++ Array/Test04/Test041.iml	(date 1588297054632)
+@@ -0,0 +1,11 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: Array/Test05/Test051.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Array/Test05/Test051.iml	(date 1588297054708)
++++ Array/Test05/Test051.iml	(date 1588297054708)
+@@ -0,0 +1,11 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: Array/Test01/Test011.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Array/Test01/Test011.iml	(date 1588297054930)
++++ Array/Test01/Test011.iml	(date 1588297054930)
+@@ -0,0 +1,11 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: Exception/.idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Exception/.idea/vcs.xml	(date 1590405405476)
++++ Exception/.idea/vcs.xml	(date 1590405405476)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: Exception/Test08/src/Test08.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Exception/Test08/src/Test08.java	(date 1590408702563)
++++ Exception/Test08/src/Test08.java	(date 1590408702563)
+@@ -0,0 +1,18 @@
++//请使用代码实现
++//        每一个学生(Student)都有学号,姓名和分数,分数永远不能为负数
++//        如果老师给学生赋值一个负数,抛出一个自定异常
++
++public class Test08 {
++    public static void main(String[] args) {
++        Student s = new Student(01,"张三");
++        Teacher t = new Teacher();
++        try {
++            t.setStudent(s,-2);
++            System.out.println("输入完成");
++            System.out.println(s);
++        } catch (FractionException e) {
++            e.printStackTrace();
++        }
++
++    }
++}
+Index: Exception/Test08/Test08.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Exception/Test08/Test08.iml	(date 1590405827779)
++++ Exception/Test08/Test08.iml	(date 1590405827779)
+@@ -0,0 +1,11 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
++    </content>
++    <orderEntry type="jdk" jdkName="12" jdkType="JavaSDK" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: Exception/.idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Exception/.idea/misc.xml	(date 1590405827840)
++++ Exception/.idea/misc.xml	(date 1590405827840)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectRootManager">
++    <output url="file://$PROJECT_DIR$/out" />
++  </component>
++</project>
+\ No newline at end of file
+Index: Exception/.idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Exception/.idea/modules.xml	(date 1590576146652)
++++ Exception/.idea/modules.xml	(date 1590576146652)
+@@ -0,0 +1,11 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/Test08/Test08.iml" filepath="$PROJECT_DIR$/Test08/Test08.iml" />
++      <module fileurl="file://$PROJECT_DIR$/Test09/Test09.iml" filepath="$PROJECT_DIR$/Test09/Test09.iml" />
++      <module fileurl="file://$PROJECT_DIR$/Test10/Test10.iml" filepath="$PROJECT_DIR$/Test10/Test10.iml" />
++      <module fileurl="file://$PROJECT_DIR$/Test11/Test11.iml" filepath="$PROJECT_DIR$/Test11/Test11.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: Exception/.idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Exception/.idea/.gitignore	(date 1590405828174)
++++ Exception/.idea/.gitignore	(date 1590405828174)
+@@ -0,0 +1,8 @@
++# Default ignored files
++/shelf/
++/workspace.xml
++# Datasource local storage ignored files
++/dataSources/
++/dataSources.local.xml
++# Editor-based HTTP Client requests
++/httpRequests/
+Index: Exception/Test08/src/Student.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Exception/Test08/src/Student.java	(date 1590406306903)
++++ Exception/Test08/src/Student.java	(date 1590406306903)
+@@ -0,0 +1,46 @@
++public class Student {
++    private int id;
++    private String name;
++    private double fraction;
++
++    public Student() {
++    }
++
++    public Student(int id, String name) {
++        this.id = id;
++        this.name = name;
++    }
++
++    @Override
++    public String toString() {
++        return "Student{" +
++                "id=" + id +
++                ", name='" + name + '\'' +
++                ", fraction=" + fraction +
++                '}';
++    }
++
++    public int getId() {
++        return id;
++    }
++
++    public void setId(int id) {
++        this.id = id;
++    }
++
++    public String getName() {
++        return name;
++    }
++
++    public void setName(String name) {
++        this.name = name;
++    }
++
++    public double getFraction() {
++        return fraction;
++    }
++
++    public void setFraction(double fraction) {
++        this.fraction = fraction;
++    }
++}
+Index: Exception/Test08/src/Teacher.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Exception/Test08/src/Teacher.java	(date 1590408502179)
++++ Exception/Test08/src/Teacher.java	(date 1590408502179)
+@@ -0,0 +1,9 @@
++public class Teacher {
++    public void setStudent(Student s,double fraction) throws FractionException {
++        if (fraction < 0){
++            throw new FractionException("分数不能为负数");
++        }
++        s.setFraction(fraction);
++
++    }
++}
+Index: Exception/Test08/src/FractionException.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Exception/Test08/src/FractionException.java	(date 1590406716106)
++++ Exception/Test08/src/FractionException.java	(date 1590406716106)
+@@ -0,0 +1,8 @@
++public class FractionException extends Exception{
++    public FractionException() {
++    }
++
++    public FractionException(String message) {
++        super(message);
++    }
++}
+Index: Exception/Test10/src/Person.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Exception/Test10/src/Person.java	(date 1590575929291)
++++ Exception/Test10/src/Person.java	(date 1590575929291)
+@@ -0,0 +1,40 @@
++public class Person {
++    private String name;
++    private int hp;
++
++    public Person() {
++    }
++
++    public Person(String name, int hp) throws hpException {
++        this.name = name;
++        if (hp>= 0){
++            this.hp = hp;
++        }else {
++            throw new hpException("hp不能为负数");
++        }
++    }
++
++    @Override
++    public String toString() {
++        return "Person{" +
++                "name='" + name + '\'' +
++                ", hp=" + hp +
++                '}';
++    }
++
++    public String getName() {
++        return name;
++    }
++
++    public void setName(String name) {
++        this.name = name;
++    }
++
++    public int getHp() {
++        return hp;
++    }
++
++    public void setHp(int hp) {
++        this.hp = hp;
++    }
++}
+Index: Exception/Test10/src/Test10.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Exception/Test10/src/Test10.java	(date 1590576074090)
++++ Exception/Test10/src/Test10.java	(date 1590576074090)
+@@ -0,0 +1,8 @@
++//在一款角色扮演游戏中,每一个人都会有名字和生命值;角色的生命值不能为负数
++//        要求:当一个人物的生命值为负数的时候需要抛出自定的异常
++
++public class Test10 {
++    public static void main(String[] args) throws hpException {
++        Person p = new Person("张三",-5);
++    }
++}
+Index: Exception/Test10/Test10.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Exception/Test10/Test10.iml	(date 1590409776154)
++++ Exception/Test10/Test10.iml	(date 1590409776154)
+@@ -0,0 +1,11 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
++    </content>
++    <orderEntry type="jdk" jdkName="12" jdkType="JavaSDK" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: Exception/Test11/src/Test11.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Exception/Test11/src/Test11.java	(date 1590577280023)
++++ Exception/Test11/src/Test11.java	(date 1590577280023)
+@@ -0,0 +1,12 @@
++//创建三个子线程，在每个线程中开启10万次的循环，
++//        线程1循环中将循环自增变量i赋值给Integer类型变量 a，
++//        线程2循环中将字符串"黑马程序员"赋值给String类型变量b,
++//        线程3循环中将字符串"黑马程序员"和循环自增变量i拼接后赋值给String类型变量c
++//        分别计算三个线程完成任务所用的毫秒值
++public class Test11 {
++    public static void main(String[] args) {
++        new Loop1().start();
++        new Loop2().start();
++        new Loop3().start();
++    }
++}
+Index: Exception/Test11/Test11.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Exception/Test11/Test11.iml	(date 1590576146600)
++++ Exception/Test11/Test11.iml	(date 1590576146600)
+@@ -0,0 +1,11 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
++    </content>
++    <orderEntry type="jdk" jdkName="12" jdkType="JavaSDK" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: Exception/Test11/src/Loop1.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Exception/Test11/src/Loop1.java	(date 1590577209993)
++++ Exception/Test11/src/Loop1.java	(date 1590577209993)
+@@ -0,0 +1,12 @@
++public class Loop1 extends Thread{
++    @Override
++    public void run() {
++        long start = System.currentTimeMillis();
++        int a = 0;
++        for (int i = 0; i < 100000; i++) {
++           a = i;
++        }
++        long end = System.currentTimeMillis();
++        System.out.println("线程1使用了"+(end-start)+"毫秒");
++    }
++}
+Index: Exception/Test11/src/Loop2.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Exception/Test11/src/Loop2.java	(date 1590577209982)
++++ Exception/Test11/src/Loop2.java	(date 1590577209982)
+@@ -0,0 +1,12 @@
++public class Loop2 extends Thread{
++    @Override
++    public void run() {
++        long start = System.currentTimeMillis();
++        String b;
++        for (int i = 0; i < 100000; i++) {
++            b = "黑马程序员";
++        }
++        long end = System.currentTimeMillis();
++        System.out.println("线程2使用了"+(end-start)+"毫秒");
++    }
++}
+Index: Exception/Test11/src/Loop3.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Exception/Test11/src/Loop3.java	(date 1590577209973)
++++ Exception/Test11/src/Loop3.java	(date 1590577209973)
+@@ -0,0 +1,12 @@
++public class Loop3 extends Thread{
++    String c;
++    @Override
++    public void run() {
++        long start = System.currentTimeMillis();
++        for (int i = 0; i < 100000; i++) {
++            c = "黑马程序员"+i;
++        }
++        long end = System.currentTimeMillis();
++        System.out.println("线程3使用了"+(end-start)+"毫秒");
++    }
++}
+Index: Exception/.idea/uiDesigner.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Exception/.idea/uiDesigner.xml	(date 1590576513800)
++++ Exception/.idea/uiDesigner.xml	(date 1590576513800)
+@@ -0,0 +1,124 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="Palette2">
++    <group name="Swing">
++      <item class="com.intellij.uiDesigner.HSpacer" tooltip-text="Horizontal Spacer" icon="/com/intellij/uiDesigner/icons/hspacer.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="1" hsize-policy="6" anchor="0" fill="1" />
++      </item>
++      <item class="com.intellij.uiDesigner.VSpacer" tooltip-text="Vertical Spacer" icon="/com/intellij/uiDesigner/icons/vspacer.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="1" anchor="0" fill="2" />
++      </item>
++      <item class="javax.swing.JPanel" icon="/com/intellij/uiDesigner/icons/panel.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JScrollPane" icon="/com/intellij/uiDesigner/icons/scrollPane.png" removable="false" auto-create-binding="false" can-attach-label="true">
++        <default-constraints vsize-policy="7" hsize-policy="7" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JButton" icon="/com/intellij/uiDesigner/icons/button.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="0" fill="1" />
++        <initial-values>
++          <property name="text" value="Button" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JRadioButton" icon="/com/intellij/uiDesigner/icons/radioButton.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="RadioButton" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JCheckBox" icon="/com/intellij/uiDesigner/icons/checkBox.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="CheckBox" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JLabel" icon="/com/intellij/uiDesigner/icons/label.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="0" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="Label" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JTextField" icon="/com/intellij/uiDesigner/icons/textField.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JPasswordField" icon="/com/intellij/uiDesigner/icons/passwordField.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JFormattedTextField" icon="/com/intellij/uiDesigner/icons/formattedTextField.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTextArea" icon="/com/intellij/uiDesigner/icons/textArea.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTextPane" icon="/com/intellij/uiDesigner/icons/textPane.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JEditorPane" icon="/com/intellij/uiDesigner/icons/editorPane.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JComboBox" icon="/com/intellij/uiDesigner/icons/comboBox.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="2" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JTable" icon="/com/intellij/uiDesigner/icons/table.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JList" icon="/com/intellij/uiDesigner/icons/list.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="2" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTree" icon="/com/intellij/uiDesigner/icons/tree.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTabbedPane" icon="/com/intellij/uiDesigner/icons/tabbedPane.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
++          <preferred-size width="200" height="200" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JSplitPane" icon="/com/intellij/uiDesigner/icons/splitPane.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
++          <preferred-size width="200" height="200" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JSpinner" icon="/com/intellij/uiDesigner/icons/spinner.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JSlider" icon="/com/intellij/uiDesigner/icons/slider.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JSeparator" icon="/com/intellij/uiDesigner/icons/separator.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JProgressBar" icon="/com/intellij/uiDesigner/icons/progressbar.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1" />
++      </item>
++      <item class="javax.swing.JToolBar" icon="/com/intellij/uiDesigner/icons/toolbar.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1">
++          <preferred-size width="-1" height="20" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JToolBar$Separator" icon="/com/intellij/uiDesigner/icons/toolbarSeparator.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="0" anchor="0" fill="1" />
++      </item>
++      <item class="javax.swing.JScrollBar" icon="/com/intellij/uiDesigner/icons/scrollbar.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="0" anchor="0" fill="2" />
++      </item>
++    </group>
++  </component>
++</project>
+\ No newline at end of file
+Index: Exception/Test10/src/hpException.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Exception/Test10/src/hpException.java	(date 1590575929177)
++++ Exception/Test10/src/hpException.java	(date 1590575929177)
+@@ -0,0 +1,9 @@
++public class hpException extends Exception{
++    public hpException() {
++    }
++
++    public hpException(String message) {
++        super(message);
++    }
++
++}
+diff --git Array/out/production/Test02/Test02.class Array/out/production/Test02/Test02.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..87175e9424569f6e58d1d4700234c2b1de76fbf8
+GIT binary patch
+literal 1581
+zc$|$?U2_vv7=BK^_9RVd*h&#>0kvpav?&2fF;InQr8I@&)?!4_({xR@O?ESzO=o&7
+zjx##SFwXdK;RPLM7`?JyRIQ^wz*~Mp3;qShL7&~kq1EV^$@8A~yx$*Z_SXj+zW^A;
+zVgh|QmOw9#Yd9e>B5_h;RN|Dxa}qg;(-LPS#w4DXctPT<#5sw)#ETLyNsPzwGS2Ia
+zRY+h87kzR`Vp`&|&%UC;&@dwqJ8jvPHzp8H56lWg^3J>|&{eQ(^J1eqXSy?Lu0n}k
+za7wB&t6a;!w}cUI!Kw?$!i-t>hO;?Js>-qjdeT=5i)vYAD#|Wr49~UfaxRFk+%i47
+z+o%N+H8S3`vt+sgVv(32ECEfquF<eOfjGH>>3P0Ir{Ss6(v+$N)o4gFg5fmWk~wbq
+z)pazh8uBwGaR3LC7{Eb+)ZbHc3U@bFw{E>l=C_}2HkqwYf86}?GoM*~@7@P%EaWVa
+zC5{oti4(*KagrD%P6>pL4wJb+TqY(pyqd%;t}y30$MNc(t7=oGx8TgzyJC1vqL{?%
+zxT@ieB;LfeB;NAt(>A}lefQ%J4>9-Vw>QZ7@@u>```OXJrMX43<n8QfrS6$kF4SpI
+zv8Op`%gIdp!)3#!s^$`S8;T}EFw5SmS~ByFT~gi^%Ud8<_mu5%O{3|5uBpvl+wHQu
+zO<I9yuwho!Cb0iJv_N06HO%>wc}JlCp`B$f^J%oqoAr*XlIOT98WuR7g5xYTY68g#
+z+cw>NMb+yjoA`Wtu2ziZ63#1ozGBw<n~rTd`!~m#m73YceEXwrE@sDUS|RePQZX#g
+z%xU1$KK#FG6FBhSc6gj$iaz+iFogfuNe}Us;VF1V2fv3{BNL)25DSDMJVBal8sJIv
+z^Niy#o@zN~311ia0ilP!37(WOQFNPs1WzL!_z(P*T#Qf}q3j#&XM~GkJz^9idekUJ
+z^_WqN>6$T_>TGJHuZjDbgs<r^ikhA@ic;@1im8~si&WFQNTr@4jqAHf6S_{?p?8xe
+z^+$|C_)M?1ilOjWU#fEz`@h4U!QSkVzU&5ifOYJ>9u~L%*rIqHk6sUvze8T%M~#2(
+zU&mu>!2ta(htNT)VIL&Q?AhjhnZ3Tx^CRrSCzO4G6mDTRzJ?x5Vvya|xQ0O-VH69)
+zc!pevF>d17U^->w89B}QWO(aA<N+)V!~Bci5fk^(d!O;cI2uel3p1FvK#897j5EQz
+J<oyCM`6tl3ZcP9H
+
+diff --git Array/out/production/Test03/Test03.class Array/out/production/Test03/Test03.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..f41c7197c9bbd292ba04d593c89fe0ca7c0f1188
+GIT binary patch
+literal 1805
+zc$|$?T~8ck6n<WIcjnz?DeKT}r7g8pkdH!v1-7)*YP*V17D^qYuJvnJMi|(g+3XHP
+zk|s?oCZ<g^dZFHUAsQPKFWO#ci_sV_z4afMwAH`R80#}Lt598yn?2_}?>Xl=bG~MN
+z{C)E~0K+K8un)sA?8Q-!9aAwPaa`gFi4zh}N<1ZTQsR_EM&fCSXCy`?o|PDr7?(IL
+zF(Hwan3R~(81cC%bj-x?JZ4p#Q}Kd;a@?{l_k=*GqjOduoN?w&fyS(5n^P;rIkP-t
+z%oV87vQFM8%o=6OyH}NAchRZ{$n1<+ar*{Fs3{tjEwHQOe0IrLHF^t%z0j+>Wy@X|
+z@#7oi1tOYim<1vwXW1+ZBs)55+QkxSoMZ{8M!Br7Sgt^nQr2``59w(q=**lbO$Xs3
+zmOXF2A<&?^Mt*tHDEZl|Xcvf;7}~A+g$SWacUH=IbJX$*tPcu1>?IRN3--s+fzCJv
+z(I$}idy4Gl-OY_VpIoBw>o@NO!krIp-TwGPPuO_tm&@0g{Yg@aG(Z|84Uy8MBcx%{
+zQGvStJ_@HvXGs%8-~R0C-FL2d!nJpOA#uua+=^Q^N|UC$=*(9d733sdjN?3BQt@&e
+zui#Y`uf<_tj<}$b2eLjhw`Ats81k6sBZUyyT{M=>jAQ2w_nhS}QmVLy?Q&wn9sit2
+zjS<%x+x9-KRa~>kRy!-4Tr%*soZe|~3<Q`)k$|QeYR=Z5Rl)Z5qt<e%FumHj8?9Sb
+z%U<Pht4={-qek9!%4;f?*_Ev0EU%OV;^Ve$mNNyTQZZTWN86uJjS;kY%&_MRW~DU%
+z)@Z@M0cX}qW)1i4iyqA5fhJZ%WQ;;Vw_I~XMM0qLf8{2y|G)ikkl&Pj@P1(kZ@bAK
+z;jNda;2G)q8sa*IIvgNZd}SSBKs<23qj-#G6s>5hf`_VL^(N|WBD4jM@${ag5VjRU
+z#p7uAL-554LWoQBP^tSt{TAU|NQ>yXu%_s_h^Fc}MU(nOq9L$EJxk29)O(h=o>R33
+zJtwstdM=@8jpVA9AeY)h<WWr{k7-Th_1aGIxR%tjks#PEFW7E<GLhzeDwGa~(vf6D
+z-9S$$tt6F1!v<P<lHsmoBy}jMq&D#|ps$C;x+1RL|9L$^{!>q4usf8}dlEz4VIJ35
+zMaZxI7<Ty8HbY{8y;wy(F0cm|(SWyUdmoMX6bXDz`Ah0<pb59I6W=50cWaE;E0nr$
+zh#h<redwkXVZ1NU<9Bd@%YT@XVC*bs*v@`mz$iW2nZre7&`(4dDf%8n_&$RuDhB@g
+z^YzDXkm4Q=++*OV_mQj4RA&HhSS>fu+!acFg*~32{wXB-J!xyw8lM7oC(7(J?BR~>
+j-8S(Su1LGzm$Z*Kf<=Ej1YXAyt7yg<-X-tTq_ckj5=oH)
+
+diff --git Array/out/production/Test04/Test04.class Array/out/production/Test04/Test04.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..5577490c303961cec8cf90c5a36756ec2aab61f0
+GIT binary patch
+literal 1349
+zc$|$?+inwA6kW%+u?L4tNOJ)kN+1EpCNZUHOFJZ7ECCV2MRE+X(ubZ*rty&Rj5TwN
+z6seDVL7&>!zVw+sv=u^pKtF<4#3xV*+BGwl0>Z7ZH2dtc_daW{z2=Pndi(S_fQz`Q
+zL&Lm|0#2218Vg4lt?F1pO+#J7If23@*LT&rK(@McUm({Eb{v6m%k`Z*gWk3iZpv+s
+zkt0@MOYgo6-FQC?=2X{>1d7(C6RGp7CL=xR`U2C{E$g9tBpaUecN;Agy8f=2;LC8A
+zCniUv1xj{ThF8N-?h9nLngV*C8PyC1z7oh+x0*48u=#B8aam<|nXuD>%od|#EhX)}
+z+p?cf)KDQxD;R{fbKQ+8A4;jN#O=!{qEyBdrZp^=v4VzxaV-c`q(a%h?Wk_B6O9*e
+zzKGAtxPZ?!td{WwzNBm^4C@c(xV!z(vDJH_)_$a%9>om?OiZOiyFue#JQwG7WY5&`
+z6)sX4vAiq<W_ohZX$HP6)dN>`=|xKVDvC92ZY+(GZE^&vfR<?I@nuX^N4*OTU&k}8
+z2`n6BUH?(A=M0Nd7T2Y%f^c8MWln7c!QP-RP~Px;Cv18$iX2k=>D>-Pj8wjx(%<o%
+zXdyjlen{lM4sP!Eoe|~l-kVf!bLm5fru4j)s~l6q6@kT%;wEt7|LZW%&qzc3%R<Cg
+zhgRpV!Bue0*ZzQbLMMYmw1qT?GHrS2kKr)a62@T+5C4E1>wznV{w&|g8nWHV8D6`S
+zH@<Io3P!Kp(PFP?1nrJdFt%y6#1@T+wq*EitNtf42YnBd9!Sq5{$)nu{?lm>Od$RT
+zFv(;RpO8T*zWhTbFUcgw)iRDf)2-}UrS|+6%+xBY>-9N9?tHtF`|j@JjQI7RSJ^c~
+zu2<?zpQ=|@e#Yc)$j<#p_h}69JMt`hoMq*UCy7`wt6I`yjGf164KkU)ar*P*agHo5
+zkjFLpw{SFJyiWZlcxDE(M9^@I@mWrB8r7k928)c&CevEUJh8$zh+5%9bKFfK{|1_d
+n6XI_ieZwzI9Dhw=viLL+>m)95)mi)v+nI!2OoS7J7C8Ga7ep)=
+
+diff --git Array/out/production/Test05/Test05.class Array/out/production/Test05/Test05.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..35eda5e394aa81b2cb057c11102d5b0d8c924d0f
+GIT binary patch
+literal 1391
+zc$|%s&u<$=6vw~gb-ec0ZMF$XXq}X{q+lBp7fK=2P76d7EF4_ns9*&NCeF&)#@@Ad
+z$B}ZkgnHqIgeth8N|g`?S|kXe${)agft0io7sRy^h40v=EviB6YTwMfc|Shy&Fs(j
+zcXk2H<24H=j$4S~L;@%A^cc0zT1X>fB5UF~fmqS?Ty<W+NM|k!L>K)vM_{z<dd|C@
+z)~XXM%he_|V`aZCo0nza>h(YwRqJjj5HBw~p*nrGKut@!p1@>!rF=zh%6wCLjeJ!F
+zuGc8&_`>B^qMZyH^c){zCNNU>JDwtv3<8133hfV8m8@?p$#yTZi7Apd9QFEUgXZa#
+zQie80*lAIET3S`V6V#oHuEspj$D7lsl87Ub#8IS7<dS$Ea{~4ozOO<R$o7(>*8R0`
+zG=_W}r;~UAFPb=$#7j8Kg#9qIf5==}z2el>KUCGNP&pdJ?{H(HU!d#fFR?ns8Xegx
+zSa=z)2%Nd|*|&Fp>fXK9-T(2s{VzY^a&LR*x7*jm@%`&J_I5sfpr*;4FRqHc?XLx<
+zT5`i#^u4-N@4IT9vrtJ-g}UvfQf633$A>@&m~Fjk^1LR}!;Z_uylz2JVD{mz>uvfQ
+z&cLWoaZ%QlA8eW6HHwvef1}eDNR~X$2^O0&3>~6<{%D3ljDEM@mfl*^31|C`g~vhu
+z&2f3F?F=!0^h))Qr;vF(#G-6AtFCeiCN2n^`d@4U$Nt+6C-|qC(2oJ3ZyKe=Ri2~Z
+zIFkJV;wC2%9H5N#l}J)12lInC#4&+U*aPQZ5akQFM$xuzTQ$S}s8WmCA69B3_B)kY
+z%$~2*OnbFbi`#EiYIe-NL}}XRDC71DWrA|aI6sry{R)%0nYr9HBG(b?3eh#hjX!_A
+z1w*S+J37tx7`fTw*MKKk16Wan;{u`HBv6Gr?{WSCLDvbX;j{F-fFn4JF?tde<9MQ1
+zW&;z{33}%+i79HHr2Y_$`|P`kBVz0xi%#eta!~G7M$j>4jH0nHoh9>VDmy**aj_dA
+z?C+`UZgXM!n+J$T*+no#gefg1wK-1mO)=TuXi@GT?%6PG4@0A+Fx^8-aX!=A)o2zX
+ie;_KvJ$e{8*0X#Hh2D<9t1RRk3!UXU&h;sN&-?{_>`4Xy
+
+diff --git Array/out/production/Test01/Test01.class Array/out/production/Test01/Test01.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..78373f34e640062958046cfc76e35552eb7b60b5
+GIT binary patch
+literal 1177
+zc$|$>+fEZv6kVq+opu=Lp%p412nyPwQotKJV4_Wk#Nud5z=o$onZVF?rkOb<>AN4{
+zvoF4x;DZ`s`~d&NUoi2qXQr_js<Fx0_r3PoJJT;ePCf%z#)=9B7gWSCk;Eh}rYU+^
+z#SCT@Tv2e9A--bSmVCev&E>ZkVnt`qWJr}P+kDz;?3(VT*sW6}U2>|Tz9n4C_dCIu
+zJg_{5L}}CX<ies(k%q8rhLPM(=};VrLS5MVg|c)ldtVRmg}YB3nI35dwMmA2=(?iK
+zz$|*}#7np?Lu7}{fwC0U+J<Nb;}vA7rR=oas<~$QboxUY^FFkO1d<vuNGix_$YYLy
+zKXM%DNmn#COnKn!d8s(AC2(EC4a_SjXjs4^og{>z`YuOf_t31$KSJfUC(Q;CbXt@c
+z4i~bV!ZUvf+Q}3RUBwb^5_>kqkZp*XS#<2GklU6#Aj^}&mUNBb+<Ly(Ju*EY8Tx`N
+z`CYwEtl*Zv&N9PHH*48PPR;BTg%s9ARXT24!F^h|<T$lflR;azZPP8*h3A>X>(%KA
+z9gOgDkA=NgH@%s#Q9n!MZ;hMnrrD$X^yd(sTF;+_D2jT$Y)MmBK-Zc5FK!Hz|E|L{
+z{W}!+zbKgh)sR%lE0AWS`{q7?9g`73KgoC)gho>9*aH|OokR+})4W8_&&56>((P4A
+zgN8+EOt(LVA*6%;%<tiEDeBk0;OZx}66LB<iSd4;(#JKU66XU(Md5=+CBaihg~vH3
+zsqi6^37#gI<Qd~hbY+~YuaSL+=-l}H2_fP=`d%{j=I7VrU|pZn2=Vus>EsoO(R0$<
+zw2v0#B3Q*3&S98%>6oBMmg46F?vd|URWQoFVU)1Of-T2!H$Y>!jeEF5nJMxU<WJMP
+F^b2?%3X}i<
+
+diff --git Array/out/production/Test06/Test06.class Array/out/production/Test06/Test06.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..eafea82834a6bbad48344a84f45cdbd8b1dbf4d1
+GIT binary patch
+literal 1345
+zc$|$?O>Yxd6g|%~_Kb}oE@=|lgb-3gZ4+WX`{mF|jf5J>=~QwAGGX&#KP7|h8EfVR
+zDX`6kT{lRmn@Uwx7DWo}qNNnEZ+}N2QaAktEj=@1DXDM~mi*qm_nmw1Id|U7@Bci0
+z3g82Ll7od~S<K*g4jIfIX7pqZ@1kU(Y@s5MS#Uj9e=J~>%2x!;MZc{CM(VDoKHu!E
+zsbEE}bs0Ha_gk`iMFwu<4}zxNa6<vRzM?{X=DivtJ?VM^<E7R54S7>myV6^)Hgw>6
+z>$SMP4Az-3I^;M$49*IqR+kd{99e~1J%My-b*X%f9)t8kEdwne2s4z|7C6|@vej9Z
+z{Q<9B!`}>A>arU-2NH7gQNuiJWG$S^V-BbD7{`P_;Zxt&p$=q!S?LYG9gbu$Z=;&W
+z8Jx9nE|2rLz(FNth~H!Gtldy8{hv@{E7XdV4S$mdV~I@HuYN&|no5=I)pEE97Mgi}
+z_u=lZ+mYz!_jaCr`Q0CnzTN$P=h@CLyZ0ad_2erdFwv78wdi{-sjs?vgBG=WniCu=
+zT`Lcp;pmWt0#-lrx?Yqw?7>)gKa$J*;@+w2-Sj(Z07^()mM!fETNW;HAa&pGZ1x56
+zOP;5K#jXrPMP~Q*cNo-2Ci|K6+FcbElf>G~ME);vWvj1-!1rIG<WbbhFPB)9-EPCx
+zs%C-L{KRW<6PSKA4#)XAS%`iHM0BgT=IB+q3-0O4&k#S*NZ|n2OdL!h&o!R_a1e*M
+zXEB1pAo(|#EC<{!WS``khUqlTw9`yyoMy&ynwIS}ZSI8(0|kpG1>1D$36`G8aJq1s
+z-~ufxTI|T(k54<xKO%MN5sb&|g`be7JGal>qdZQEV04cAbqeTE?=32gB+Mi<@dlzV
+z${ZYw;!TRUj$;_3m7*-ZTmxBmh>q|@W1;fYY+o`KCa1o^L}hZmGBy7-(#C^rA+}R5
+z?!Wlcd=O7G>OURNHy5+9*!2(xHo^5R+OzDu$D@cN>>2T%<>}k(YT+m*X{9g~kJ$Jd
+fSs_Mj!jHzlX?zqH7yL*r;6tXpL*J%f<p0FK%r!RW
+
+diff --git Array/out/production/Test07/Test07.class Array/out/production/Test07/Test07.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..ad0488736b0240e2b54521588ab6612de41fcd95
+GIT binary patch
+literal 1825
+zc$}3~OK%%h6#lL~_KY7PQ>STZa07v~#CBrm1ub=3XbqtTCq{Bq<Yv=}GfJkhXN*0r
+zlpPBY3%WpvMFk5a7Eq)LRD__as{8<0@B`Qqgai_MR8hV=<2J48SjCdh>wf3l^P2n9
+zzqhsl9LG`=ag0ZB1V^KY;rRrunJ6YPm4HAdfq*1INfb#!$f%f8F)t84Y1x*0S|B))
+zIxnCUoHbKmuw>chQm3(Mww8_6IxUHkQ#0!4jg}?#u2FF}thRtwS~lD6^sziG4a2ep
+z4os|+E*Y1NT-~tOa}~E`+3R^PzR_Bz$54-B@31u^5LhYt@~qG1d?u4M-{}~2`l}Nw
+z#g$^}f`G92Cw`#f8nw+uquEU@T5&q9nz>*}CFbXsm3PK5fG1SE5XXx+7RO<X3g~AY
+z$8EbUqq%6h8_rsLFpT3GUW(%c@+wZoaSEq3ysY6B4QDi*)lgtIepI^e)>2-*WY*k=
+zOqH#+Yc|+mr^AC`zi`XRy~V0s)@~Y&d=#(ZHGwhNfSr%8$l8Cu`t8m~U+#Q!W#|2C
+zzukQIj}N~8`}U_o;9$epGz*ShGu*c=cY{*fHEfqn8J@V1>ebev9yhXuO{vvw>DPN!
+zGMiaHo4LKRk(fCjGv5z0^Z1y)cg^;Vqhdjh><xkO-HI&xva@M+3-cSdVANcvwWXrO
+zDV7{(v(pra7j4^Y73xO2ZL*tJAM8puhQA%>4129^w#R+P{G-j=%W-+DY4(6W_$~PR
+zlTSSwqF~hP70WfbkBb6F9xFG2(f&A$@wtdY{(^id_+^j|Qp=GG@=*Fmh#M3F&`HCd
+zF@SxfaUXyLhR7q>k73_ge9c!TM4r<lx1-gdQm!hYay1k#SHo(#s%qt`rc=?wI#pfO
+zY0x!2QZD^Z{GuN1kJlc8SM`WeUh3@=-s=uJ>9O(&<vRp2lQ$8(#oF)#LewXxJUx6*
+zpE{&?2KAmH(=}-K4ZcU@euOR{>KS(1oaI!&i>BGei@e|y#{8LKex>W5MBhP73?MEJ
+zV?bm%GdYfVzvVc9gVd&R7f<342XYa=V1!bDQ9i>{l!A=4h9o70@%R9CXZ|5ig5=}r
+z?acP)2nDYPPbJgaUtoVanaw1#p6R`S`0DOo%5`sJWUiyKUP>ynh;SA5aS=wi3Q5Y(
+zG6$L4GsMQ2*VB{&@&+$Ac+!ZM<rw7{l*k<jq5s2Df^?Sccn(GKC?T)oO`Icmg8ET5
+UB}H4>qgjvUJUZ>s8IR8X2io+>GXMYp
+
+diff --git Exception/out/production/Test08/FractionException.class Exception/out/production/Test08/FractionException.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..8542b71ae68a88fcadfb4fbd579e8fb90ddbf101
+GIT binary patch
+literal 424
+zc${UA&rZTX5XQfO(rT^pPq=$SOyuCj1jEJ1squp0zSK=!Q?{lp#@FIR;=u>-p$s#n
+z(Zudy=9}4XezW`i^Z5nf76Ts+x)ORG`X0^+?wzrwm=T(z%O%0NPoFiR9U7}2H|v$o
+zp42MgPA^O&l`K_eq^_Dy@nUj9Kb&VODoko0J|g`lVoDf{!dLaKCW*4~WKm?s##340
+zt#zKOxMbE01b>lkvPjR3EEv|n*D?~I1y@2q=+-R!pg-<!7Z+&q$K^CY0^sOzb;FrB
+zx5hirw!A*#=yMkB@Ype{;9%nZ31<NW6=23L@w(%y9UA`$E<3%FFs$kWLDVVE%H{2H
+Grn3he&QJ^h
+
+diff --git Exception/out/production/Test08/Teacher.class Exception/out/production/Test08/Teacher.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..42521b1a21dd6065dc1c5df324cd6fe8253fc848
+GIT binary patch
+literal 592
+zc$`I0O-~b16g{^cI_>m>Qmi5f0%|fqVz(qUZmeC6vM6cd@^yH^gF0=dQ^KBvuwiN9
+z!o<ITiLp(Mu=jTq(_dk{?=h5l$$j^pd(V0I%%6XwD*)Sg;lRdY8;fZyIY{7%gJrDP
+zcxq#nkb0#86}=`T-Hj%}dehmHgjr7o@_qkPONP6m)n=sRb$rooicsk~2Ce8o^#~bn
+zR|@|?hE;;olTjn;@5vw{<Xtb$t2M1oX7~;wq(6qjk5nh%R*lCSk?@b+iEb?Kygl({
+zSNECcG&=pzmvyB(x%k1ChvHb|kVb|uSC7S}EJFF_{Os@N%kl7Ha{7Bb98G?F<5CmW
+zY^>+-49^L6EJi45xk_6E`<0#6q4e28+4b(hMii=GzpAa+Q<GVCT%Y=|Ty}~zr1+=n
+zF9Fi)adfz<@J)QrYz{!*O*_jmWk9yYF?TzFJPHPzMUkg8S;681Jah|Rz9Rn%i4UdZ
+z0M_-E`x7%-EoszBW-7_57IRZ5^8#9Vl`&?=$~v3lSu)u?9`Gw=!=oYtU^1EQADJ~5
+F{sTYDcWnRw
+
+diff --git Exception/out/production/Test08/Student.class Exception/out/production/Test08/Student.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..d3be0aec6427d71bf937fabc60023b38d269a7a5
+GIT binary patch
+literal 1600
+zc$|$@T~8B16g|@}-L|Y0D_@FWkz%){P!+$SJlKZVq~b#f#`v_fBP^6%vO6Uq#{c1u
+zFi{hT2@n1Nf0Xgg?zUjN7$0`-%+5LIo_lAf{q_6&CxB-tC!t~?ff(+|AtwhtO<P43
+zODdKbB4&$$)fg1ZIOGiJ`o3{&l-h>1TWSc$w02h+;vXENDNNfUXq6$hW?H6LXNc<g
+zZDLmJ7BN$G)8d<*!yWEy89QxH%WfL&ZNo9;I(VswJ=0}K)ElDH;+7!!3B5L$RVv4Y
+z?XMWd^n94Jp<OO&Ezb$nFy#6xMXyP^N}HQrRjS*ajqBm5h6%gTtCHlX&SCfRJ4LTb
+zV6tI%oF?BeWieV%#In@XFoKkZI1(C?7}lWS8pG&I+ZL{HjHB0F?Aa|h6+<bG`x+kL
+zAvp^a2zcS^&CWh=iX>L>h+#fJd^B5SR?Ns_D(6_PnCTu$nSElIJTwk?#kQJ;cx#G1
+znz_QT1a(>u>uxoqn<^elQ_mT)7kj34Y#;Cd;_GivTH85MLH&=_ZTp~eM4hNv7I!Lb
+z!*w|&{d~F2frelIE5mBFxtsNgtAjSKB5s`=@eug?dVk+m^Meu<qup+pf>V)e3=99|
+zjbZlRILy&?Qt38D5s}AEvxq!-FVf*tOn}L+g2qu=tx#kXhYCNyzI(9iG$tv6q!bd9
+zms9gWxPdW>QeZp~ct^-6#gr5%OrIfAD4rpDA(bW(nN=at1UVTYF)5kxX@R7i#XWCw
+zCLKp;K7q*~%^LCLUb=8f8BP(UM>!`)_}0r5^AMw#45xdBr*Jb+D)lNRr7wNtsnBX~
+zVLBkM6WZ&HS80F0ZWCw5Q<w<)*DWp<6vqfN8Db>bUqvR=$P8u&j4b}uZQn?iI15)8
+zk-e3P?@*4ekx0*o^0m*19%^I`cY8*n-a*C+xicvJMvBB)y26P39O-ur^ByNl{|%DG
+T@B}aLl#VM;>o~0o^ep}X!Sx>%
+
+diff --git Exception/out/production/Test08/Test08.class Exception/out/production/Test08/Test08.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..9d892ab7197d82137797da825e872afa6b616882
+GIT binary patch
+literal 946
+zc${rgTTc@~6#k~SX}4PnEv*+6Q4~rGErJ)c2wq7{7Bp!?LVTJo6Ig7w&30?_2bgH$
+zgNc8@7vq}=KD0&*`t0uz<F8Q9bQ{#z-RwDYzM1o#^PSnRKR@mRSinsULzv{qgfXST
+zhb%`<LlBdpFYq1}O-C?;d>91{vpBEJ9LKzd0bJm?$Z?4wv}oCuyTstnOsz8nZq+v>
+zL)@@zxz?&xq*E4^Dj^A@Zi?!<a4Z$~z<|4LH5tN2SvK9-g(4v}Vc87n%mZUbJQ9Vf
+zu(t{&*RkxaqT*+il{8iyVY*h`zVq0W4Yg32!r3COWS>Mzqn(IRa$B3yc2(@ExGaUa
+zEggzuC0CdaS4E@S7{@4sR;srgQ?6L5(Wuv8UQz2vAj!acY&3#{Pp`jyc&_lvg!fo=
+zn(`Hnt2&BUWYB-?zdCsO=HT6n@6TRxT+^|HWo5224E?7^#|>2@<dtO@{G;h!Wk;H>
+z8qwYUBhs4EJ?t%(IaGaHZT>}6deU@djV`X<qJt@q%&Hge6B7|QQq*WN$v!ZNY^bP8
+zH<ilt@8Tca>$!`^8y*jhyG*JjPGgXMMfLc=)M&{LQ&b?&$Op3>u-)!<ifqUOktVD6
+z)<<xZd<4gEyqEkL0eXS?J@_^P34aFxV-LZN4nnKbxnb}&BJZIkqHXBpb8W=lBD^-!
+zMtqkjlE~7JKLCHX<OERz98rX6N5crM#;JG~aXJ-4o=(n@2GvrQ%I4`C!3oNy25=Ii
+p<fF*o6vn#TW2E^E$r&d+4c{*!@pGKz@Np8uI0gcA?p#;$#BUsG#?$}+
+
+diff --git Exception/out/production/Test09/Test09$1.class Exception/out/production/Test09/Test09$1.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..8d96527e18f0e4217eee6bf064a781db3576a7c1
+GIT binary patch
+literal 1238
+zc$|$>%Tg0T6g{1UObEk6ARtB%G>`<9fNu=Gh)_@!&@w4pxN0U{WXPl^HPfMra_dLv
+z){SdjpvA%u@F)Ba%Tn*m1VIullj_I4ea`9Aw|l<)IQ$IY4p!rc;e0p7F%icFOnTka
+zAT3SDF@v;*jE1a+S%&D6DNS{sA)Lu>F+>V>MKJUiO(`~;^=;vl`L;!w!J=(&Yl}Ok
+z7q^lTRW)4(eO*f76fEw#g2H&QEL=6em|Dn_tkaYX%%rx?&|6a6sBQ2@OCVmdn~ot?
+zO)uyPXmh)KkCTNJX;`*v%AF0Ns&+-gWgS;=l_9oCxHa2VI^yWjFsCDjc?}CXuHm|l
+z8@S0Zux#7PRSs_ibhkf>TQS_$sXB`q?&`>6iL{Qa62sd!XK}fcd$PSN3`K`NPCaW%
+z8F-Ec6gqvKn{>93%!}eNuB05YocC&ZLa?;&Dp99u*iDj61bEZVJteRris1G9AB1w1
+zauq6=(R3Uk)lod0$reweh^g%ewaM$^G@#`sj(eah4l%|sTIV%Uu%*G(b5m7m<|-}~
+z-CH`-&Rp-H#xT^uKbdHFkwqm*bWqA}X?WmOf0-e5ylTolyCzzoz}6}^l<n+mcud7E
+z+IFqkV0e8}vPBARc8$x5CEQei%(w6SH)46eAv(ZM-e&L+^4WHY0=KM^sYG7G3d8h&
+zd1ILPHx84~=)+~`rcX6Qjovp!I?Zx4G8(&PKZ3pYmwTy?`pF3TsMiAk`f-LvdcD8N
+zFA?_T(&44#K;<o_l3k5ANPIx(6T%0GBoB#(14Lgj_U`9bPd@C+k9c|CQ;fFg_WjL}
+zWS_qlqJIiQ81^?#w>D1rzQf<?xs87#eitD<yQ4VkTOGqWB>l`72520lnTFu^5CuG<
+N{6(63b+|+=^$YGYEF%B_
+
+diff --git Exception/out/production/Test09/Test09.class Exception/out/production/Test09/Test09.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..6acb39a146a3c5f99dcd1f6ffde81e0ebf3aa886
+GIT binary patch
+literal 1793
+zc$~FWU2hvj6g}gQth3!D#%<C<XlYWnbppgGpDhWc)Q~jPNlR@~Liy0d9+GX=yVmZw
+zQr`Iyh(})fTpkjXO8fxCf8c*01f1D*NrFvORjQ@AGxyH9_nv!acKqvKd%pm<jBjj=
+z;GBh`h4VJjIA<e;3r1Wl5b)X{UdN14%SOx=An>M*xA1m>>bn*$Teu?NEcw0)E1rxZ
+z6$uQ?yS}Th3ZzR@s{)xy&{P5=Ro7Q5oz}Vv>vG+rrBDqT(p#0GYxJ%$qc>f~$W`kq
+z(z93QXlY5;7Z@wutKOFnWZ9GcM!BX#*WZ{k@rBE=M4Sva=y|*kOkk*{Wn*huw!3MD
+zJlR@r%A$!~oE5NZK__ge1=nmIOLEVcIMi0CEh|Gja_|BQ0{Q(6_03SpCJ84##Y+bA
+zo`bm<cRdJnq(j+WR(dmNMk525&!fQUeFs<ZfrV=hKE!ng6@292V=QoMF^3xtmhg#%
+zn+~d2&SAyqx7gYw%OM80*6*u^7C2ctQ23pW@0&{F4rL=PLv7<WKD9B7J3N`N6Ss7#
+zpUa`>we3i&7CnLvbBrc<Hz?m`V>R2WWXrU-(FsH4>nGhfaVT<PCCu7TdPTO>e*xWN
+zvQa}_ASDE=X~`{B3H*lCcU`^76^rmS5BOrK*K?^)G+u>1WJ#iJG>`R<_K9TrWr^f=
+z2wdog=rvjR%)u(w9K3>pg)hu$-4mGH2fF@)U`v&&aa>*o`K@f|Al&BlYVB(lzTz2I
+zgJ7%E7WnO8@@|0S9^H_B(^F9~LC*CO`aj3|c3VB$W|Hz~->Kf+iuAmitIee<_G~6(
+zlS5v3(vR<-f7M<1!G|LGh>onl!q)=lpNgBnnWJ%-;CDCz^Gowh<)cD*oLZT);GCV_
+zg?Pk83MVKBVq*%UluiP`7*28?#3{Vkb$*BpF~H(uq}CoIy|#<YF0wlqFor!?K%%DS
+z$Mek}F)^NP|A5h-koy^fJFv(1a17Xi^PLb6|Ni|^%+92rM2<2;&O_unjI-okLLM{J
+zu5rCUVuson(@&y^moOfaT*S*b&G`%m|6cyYq&WQtvU%HlCtcFhF=e3eFO5BBF)U1e
+xaiIKRGB_KzVS-r<A3jTDL0{U^NPc(mB|c|MN?f0!b&6veuX0=>{*73^^AAmR#-IQI
+
+diff --git Exception/out/production/Test10/hpException.class Exception/out/production/Test10/hpException.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..2fbfd0365e58a188940db683f01504c3c57227e2
+GIT binary patch
+literal 406
+zc${UAPfx-?5XIj>X|)vjC*HjwCUWp%g5hHH)Of*gU+Si;DO=JO<Ja;;;=vE#hceET
+zMu_fV-pt!Kzs-Jqe|!SC!N7-uu9TjKzK2tSduyyIriA+NVoq@G(q~O*hsNs1&1#{u
+zC$&h}>4j;elDW!^%$4aBOOq2?;c|Wd7U^|iQad3GhT)5PRpUh2cswgIW8;ayy_L>$
+z6_>Ps0fIkEH(8_~jG#LQ$SVm4Xuy>c5Sj;<g#MoO>*5@B{-&H7NLIOeJYBOAYh$zp
+zy_eTVTzyvQ9bP-;F4%?GZ?Xy?r~p$=N!A@*Zc+P7a5?FfgtKbi5u|J3q<p+x?sR?t
+D2Y5)}
+
+diff --git Exception/out/production/Test10/Person.class Exception/out/production/Test10/Person.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..45b047f778216060a09f7e2124f2d61e707dd925
+GIT binary patch
+literal 1527
+zc$|$?TTc@~7(LV5wx!%}%0;RIy?|833(CdBMgmDelM;;aX($uAwCrxW1Cbb?eDc9Z
+z6B8eN^u-5EAP|iD?(ZOmU!i`pTMM?un9a`2&V1*5=Q}gA-+vx{1u%hoVT3RkLJ&i$
+z8P*UBA|8ehi8czjqG3!!ios{_4Z+ZsS?60kRpiE6Dl1F6u{O!z$y*F;o*^)$8@ilf
+z@WvC%gh`vLglW#`hFIL(SP`WqzEX5p%p5N+^OCN<%acBt*KLMi=8-7bra`=2@!D+j
+zinuW=d9JX)EeERMDnt0evz)M`ZW@Y1nr=8lM?6tavbHAVqEnG({~2}GNvE>;DR$0s
+zilQ3*w)^FaJ5s_~bF-8av$`sw!IeIyXd-Ara|B^DL=ZtEE#|F?MuyhBb#(Ch_~n<Q
+zgTv$9_dnk3C_q0$%YD<7wk&aLLCCzhYBvXPEr{z8jN=Ab?53c&6Ri(d)<sVKHRZ|=
+z<0fvAk1po9+QR7=i;YI})--#;(7nM6B5fKuE+6YMPa|7$Lz08By4KguX}GO~k)wkr
+zYr3&z7DPG3rJv<FX_mG%Oj8LN(=2R~g^_u~5T$gH+qR&bZ%^kebGRPNabvY8>_Hbe
+zSu5i#;L^4w>V!YdRGT-MsHI5rVlk^rK}FJ$9{MkB3>W?#hl_N}LUgk{^w8mOMsz-?
+z*TB@7p|*v-#;Ir2`;+@%pPaB(YQxmiB;C&d)CG;WL1;$@^@^aAA{4<Zc<BM6iXb_%
+z2T$KSG$i}>;QfHc&+t8I^Y0_@O>ui2?jGU<$@7uG5M^p4d7ab_kSLWa>hhIysgWvx
+zIU`kq2VFF7h36N+yc&WUx@k3pb2ROvK=q!dG;W0x1W@3n<Ssn)dJoA0>{Ln(IIHca
+z%518X*;`>rReU0rYH&|okNVJG2G2O#K+%pr)h=Hk%z(qt<wjL150opX?WTxYA>NNw
+zLN3)65~b5nEu@$Br&`D`VPa<pQO481i83h6W!!a8jNF~V9dbMAY$?MCy`#SYr}`_K
+
+diff --git Exception/out/production/Test10/Test10.class Exception/out/production/Test10/Test10.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..c1ef458fa87dda2604212b07852aad8fc5a906f8
+GIT binary patch
+literal 643
+zc${rf(MlUZ6g`u~Y_e`OO-yXHt+lP1s5I@Hp!gyd3X2Uy1o3H-4sk-V8+JFMpWt8k
+z3;Iw+r617m(611rXLgGUbz$euJ#)`F_s;yezx)kg1<N*an6faP!y6kZyv^esW^BC2
+ztc4F2J_=;lw5OwWfpoRDBaqqfe=31-S9@w}*l(#|Tef;cimu<5y&V~7lm7!V(Y_7^
+za_+VYqpx39iS(uR1S-`%w<`~1y(hg+y%`1C>#WB5GU$*|dgfR_42)Jo1)=XTwKosj
+zY7lAP3oU$N-t>n-TYb~UdNi^8Y-AkdVRMv($<6Kc$<4*Ff#)pDJ6J%~Le0S<mUx;l
+z1qzQX{AhJmJEH3T;K9^P@qd@!%@j|V&7&|<eO{kGB)^;xv|n$qIwD8OK1V4%0}EIK
+zllACSe(IDo!|TE<EIy$5QV?cHuA|KAjDm4w@f_kbK6bcfV=#jkT%Du<V;E=5qkxyJ
+zGUNs;Qj8N<NbMHWg}ZZP+%t?U{X+IpYYgdF(P0ZEHeoa?2@gdg#v#XjnLd@+RbZ0;
+It61UnU*5NbV*mgE
+
+diff --git Exception/out/production/Test11/Loop1.class Exception/out/production/Test11/Loop1.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..ca272ae509b69792d1dc662f6a36448f86f609b8
+GIT binary patch
+literal 1103
+zc$|$>&rcIU6#j-?c4=7!iUsip2!ggKR1^U%A;u;|NKunEc<?l|6S{Oe+w4wBxEn6s
+zj0ca#3na!EJ*a7--2FR@{R6ytK;Lc~#el}$%)EK;eeZkUyly}5*FOQ6!+aDSI2FZd
+zoYBCxpGW9)Hb$x8C`NGJ#Hfie24miqwpw7&63JBtJ>wPyLs!<8;%=?7CcHdfb0`wa
+zx&`j6a?cL@R!~<Z+h;JdS=X&jrHRC=Nd{)qT4HGT755aKmuYdz3Rz@0mQ%b?Ug6ai
+zNi^ryyn<M?LnmaK+~AwsLIhD07c5*v!a@?`4BfX~SNY20)fJ&iZqe^DaH#{AElgn2
+zM9RVyOi|;Ih2Q~C%HeW7l`naM7yk(5wtOWj3_XRK=LxCuc15h%juTvora_`Lw?^{g
+z*|5fTQ};bvs+=OGN;-<GxW>@msP8p)A5VSxxYu~P`=!3kzP^6h*m**k3NMR{D+^pb
+zuvLjpG!ChVJf2uiW)J94M7vJY>ph|mO}83&jtuG!S0z_XOb6GWV;KFNwdJN;7A;Uy
+z#3C;!*V{62lYVs?P`OrRu$H70UdG|RFG$(5gB@BN%}L+kvginZv{{%wEaY#6`K_ur
+z0{-wo=-%3fD5!MuFhzztPR>>$ZGz@A_Fvi<2LFx2FiiSy1Wy}S@RiZtNnVO9Bilay
+z9_&q+wrDrPAbq&BTTK9tqbrPc|0;e(QG@K{2ejSN7PJ{XuE(?&u;Ti{Bc1L1_(q9Y
+z{Vnu9eMr;^jdw7DE?U@SB$TAn8}Jy!Y@(O!00|tVE)&!xP%usT2xWT^BP{i6Y0)uG
+z_!FeYKmu{fYE;*aK8oq+CqyUO_7Tw;`%VQKPKFm8z%1F|64!A9Gvp7F-$DKmt#dyC
+DK3fMc
+
+diff --git Exception/out/production/Test11/Loop2.class Exception/out/production/Test11/Loop2.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..93b17c0d91acd344e0af18b0d0ba726123624d99
+GIT binary patch
+literal 1139
+zc$|$>&rcIU6#j-T-BK2TV!@vv3fclvMFh0?BQ_yI3YxURgQsabp-Z>B&F++hyW!%&
+zU_5X%UchK#^q{6jx%+p34QEeY(6`%0Frcx`&dmGX``-KB+u5(Xl`jA$a4U!=oC@MJ
+zx_w|P&jaXbBI8VmynR9R<GhLsDk2R2N!`@tO$J{iI?tdatejwIP3oqYD;G1uPV<aG
+zNGNG#xiQae-L>nWBJ;Y#peB=+RT_y?61!|Nu#6kO$d`D`;O0UsC2ieYAUD(LnPzBo
+zB)27<XNV%q979V=@@!$2m+F~=DXVN}#gy(DUix7-p@txuRYWxmV32g~d|KUk`MSFC
+zc)Rjsdv#625H2#b-LWj`NSl{th0I$yr`3<)0Ad<0;j)Sm4OcKqGQ7MLz9%)Ew*}Ar
+z0i~85DT)m3*|Kd5Q>OKznAHu#?VN_@wqTX1nQ*OR-HP3(b|p0}crhNtRg5uoRV$mM
+za%AiCX7$;|R%L~Kd-JNg{**jLUJwb(%yRiamw7tTa7;<b!;zWjVN>ilqz=7=l4}{J
+z%R9)5&Z`)A+b4eCo>w=Qtb(Wq)kIA3thDT96*uT|(0~f%5`#8vn!-*P+;IdcTiaiu
+zo})JDyWGqf!s)9K;|GQOjhJ38i9^C4?t|`S7DZOZqX$zYxM8GpDdH;VCinlBHiqth
+z$DtPi`ik6N1DJd7Xw}Gy(avaZ9QXkC)^oSe>i0l~BeZI@0JNgb!`gq7*9rC0KJ*a{
+zw|!$uSPA)FKnp2zj}*54^E<)g$~!c6Dm|j&M!tvY*6?{Xx}nml(BDsWRLbi|m;0%c
+zyg{nr)*ht_E*?S$u~brU6k%de&AJ{15p)ud5w8u$=%nB{;mv5+g{px4pg<o^c&(kp
+Wb=rdzJb_7EqrhIW17x42=iD!T%NYd#
+
+diff --git Exception/out/production/Test11/Loop3.class Exception/out/production/Test11/Loop3.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..d2f95c360232bba4226b41f810ed356089fb67b5
+GIT binary patch
+literal 1190
+zc$|$>O-~a+7=DIryHFRwBH#y~3QCJo6~Bv!)DR&>P1@kW)3BY;rQ6+RJ0;<6xOgxa
+z58O0fz-VGL@gp_L-QNK=9Q*?&e!RPF1Vc3*W_IRz=6&AheRt;bkJ2Xq7jZp^AUcES
+zLbn38^dv;+(FQc2uYs`s5EzaJF@Ug&h>Af5rZa>R^L&9vO>WIalhQG)xfnxW#IOuG
+z%AgE{XBd2OJ1rQR5{4yi7IU-0N%2`zxWTs0%^B_(?!F58WX32ksELGa=Z8s6af%it
+zGiXdQ_zRLdlGani2rJFdn3P=4PV;<KAegj^jxHt)Z{w*9xh6F<Vy}u58ct$}p?Tc4
+zWkEVTKP_a&P8XU2h}PqjhSNBsVGlG7!#G=yb1rgT#RZL;bcq~zk|eNQc`D-wp8f+$
+zE*7N7G3?Wejw39YGIC<tFip2MYRgm*mqEofZ+%$adiJ8cc7L<<U~_qeF|_A+R>W;f
+z=kksrGqj?TElF{$1C!xe{Z{NEb)>aI8FutG;gVRvbHuinOY5XRyzz0p{Ag{Xw8Xx=
+zd|qCC=;}??)N83BM1Lgj?o7*#+Z`32Q8D6nYK)<8n>DNjJ1eS(Dn(6jUE0o~igCIr
+z)XQu!&!A0OmT=-GFBAk-y0SAvRipBoZg4AYib7u{Ft*#s-vU#Mc~Rr|-5t=a*?FPM
+zSa`QYoSSCSkRqlc&d~o~-Wa<6eGa|!xPtV`7!A5_G}qCZZYj-8w2RW$<@}L%V6Qy7
+zndX28($%6_s~kWGEgrW2ckp9E{jSJ+)Qu^logw8ZS|Xh#_<%R?-&5G?&#%Odzeb?9
+zTa=&zZ&B~2QM@!=E<zGMN~qDgjlLb^xQ9FskzY4`#ADmgN<;A+SB&^Dh;|$xD?Mc9
+tAgvS}B0Pw??+EzVH;Pbj*ej_6S3QQ|3a(+4PWRA$FEPD@9r5O4zW@z(Bhml>
+
+diff --git Exception/out/production/Test11/Test11.class Exception/out/production/Test11/Test11.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..865847fcf10528aa2e6e448c1a4e8e0c8262b6de
+GIT binary patch
+literal 479
+zc${reO;5r=6r6>Au~b1&R8*>-(1QfMm|(n^cxv<jk{C}5Hf0I4rY!z1FOW#$5Aa7B
+z-xeYl_b~J3?Y!BK@1M^v0M|I>a8b2!z>z^!!=a5M4pR$LiyDWcg`<UM<Cwv^k&#rl
+z4B7fwm%+G;Ujv4MFQedLI_?EYNAyP2Dfw|<jJhI`TCbXh8psKQ<9C9IYBpQc84DRP
+zRO&DOP`r!ANJL?ytr8i9tu$XGAx)J3*=FGFc$)Nsd#SVY%ghVybFqO<2Gft@x2B7e
+zKXJL@D|*P%&rn<^KlX+}Uy)~`M51UePd}tr224j17DzRS8L@dj2m463i-cC%w6I0!
+zE)6K5Oq|0uc2>hrX&B%wka?aXJA<)+NtHE&y?{eiZU(-NEx{mkz|$Cx8r^Drgog@t
+Ki5d3NiTz(sOj02L
+
