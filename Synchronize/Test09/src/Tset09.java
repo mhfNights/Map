@@ -1,0 +1,30 @@
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Random;
+import java.util.concurrent.Executor;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
+//请按要求编写多线程应用程序，模拟多个人通过一个山洞：
+//        1.这个山洞每次只能通过一个人，每个人通过山洞的时间为5秒；
+//        2.随机生成10个人，同时准备过此山洞，并且定义一个变量用于记录通过隧道的人数。
+//        显示每次通过山洞人的姓名，和通过顺序
+public class Tset09 {
+    public static void main(String[] args) {
+        Random r = new Random();
+        Cave c = new Cave();
+        ArrayList<String> list = new ArrayList<>();
+        Collections.addAll(list,"小红","小橙","小黄","小绿","小青","小蓝","小紫","小白","小黑","小弟");
+        int size = list.size();
+        for (int i = 0; i < 10; i++) {
+            Thread t = new Thread(c);
+            String s = list.get(r.nextInt(list.size()));
+            list.remove(s);
+            t.setName(s);
+            size--;
+            t.start();
+        }
+
+    }
+
+}
